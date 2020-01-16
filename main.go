@@ -1,9 +1,10 @@
 package main
 
 import (
-	"go-playground/logging"
+	l "go-playground/logging"
 )
 
 func main() {
-	logging.Main()
+	l.Main()
+	l.Log.Info("Tester")
 }

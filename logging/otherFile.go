@@ -7,7 +7,7 @@ func otherfunc() {
 	Log.Warn("You should probably take a look at this.")
 	Log.Error("Something failed but I'm not quitting.")
 	// Calls os.Exit(1) after logging
-	Log.Fatal("Bye.")
+	//Log.Fatal("Bye.")
 	// Calls panic() after logging
-	Log.Panic("I'm bailing.")
+	//Log.Panic("I'm bailing.")
 }
