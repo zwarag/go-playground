@@ -14,9 +14,9 @@ func init() {
 	Log.SetLevel(logrus.TraceLevel)
 }
 
-func Main() {
+func InitLogging() {
 	Log.WithFields(logrus.Fields{
 		"animal": "walrus",
 	}).Info("A walrus appears")
-	otherfunc()
+	Otherfunc()
 }
